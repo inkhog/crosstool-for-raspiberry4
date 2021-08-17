@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/home/bearpi/crosstool-ng/.build/aarch64-rpi4-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi4-linux-gnu --prefix=/home/bearpi/x-tools/aarch64-rpi4-linux-gnu --exec_prefix=/home/bearpi/x-tools/aarch64-rpi4-linux-gnu --with-sysroot=/home/bearpi/x-tools/aarch64-rpi4-linux-gnu/aarch64-rpi4-linux-gnu/sysroot --enable-languages=c,c++ --with-cpu=cortex-a72 --with-pkgversion='crosstool-NG 1.24.0.411_f322679' --enable-__cxa_atexit --disable-tm-clone-registry --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/bearpi/crosstool-ng/.build/aarch64-rpi4-linux-gnu/buildtools --with-mpfr=/home/bearpi/crosstool-ng/.build/aarch64-rpi4-linux-gnu/buildtools --with-mpc=/home/bearpi/crosstool-ng/.build/aarch64-rpi4-linux-gnu/buildtools --with-isl=/home/bearpi/crosstool-ng/.build/aarch64-rpi4-linux-gnu/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/bearpi/x-tools/aarch64-rpi4-linux-gnu/aarch64-rpi4-linux-gnu/sysroot --enable-long-long";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "cpu", "cortex-a72" } };
