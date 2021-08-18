@@ -1,11 +1,11 @@
 /* Generated at libc build time from syscall list.  */
-/* The system call list corresponds to kernel 5.10.  */
+/* The system call list corresponds to kernel 5.4.  */
 
 #ifndef _SYSCALL_H
 # error "Never use <bits/syscall.h> directly; include <sys/syscall.h> instead."
 #endif
 
-#define __GLIBC_LINUX_VERSION_CODE 330240
+#define __GLIBC_LINUX_VERSION_CODE 328704
 
 #ifdef __NR_FAST_atomic_update
 # define SYS_FAST_atomic_update __NR_FAST_atomic_update
@@ -227,10 +227,6 @@
 # define SYS_close __NR_close
 #endif
 
-#ifdef __NR_close_range
-# define SYS_close_range __NR_close_range
-#endif
-
 #ifdef __NR_cmpxchg_badaddr
 # define SYS_cmpxchg_badaddr __NR_cmpxchg_badaddr
 #endif
@@ -333,10 +329,6 @@
 
 #ifdef __NR_faccessat
 # define SYS_faccessat __NR_faccessat
-#endif
-
-#ifdef __NR_faccessat2
-# define SYS_faccessat2 __NR_faccessat2
 #endif
 
 #ifdef __NR_fadvise64
@@ -1099,10 +1091,6 @@
 # define SYS_openat __NR_openat
 #endif
 
-#ifdef __NR_openat2
-# define SYS_openat2 __NR_openat2
-#endif
-
 #ifdef __NR_osf_adjtime
 # define SYS_osf_adjtime __NR_osf_adjtime
 #endif
@@ -1575,10 +1563,6 @@
 # define SYS_personality __NR_personality
 #endif
 
-#ifdef __NR_pidfd_getfd
-# define SYS_pidfd_getfd __NR_pidfd_getfd
-#endif
-
 #ifdef __NR_pidfd_open
 # define SYS_pidfd_open __NR_pidfd_open
 #endif
@@ -1641,10 +1625,6 @@
 
 #ifdef __NR_prlimit64
 # define SYS_prlimit64 __NR_prlimit64
-#endif
-
-#ifdef __NR_process_madvise
-# define SYS_process_madvise __NR_process_madvise
 #endif
 
 #ifdef __NR_process_vm_readv
